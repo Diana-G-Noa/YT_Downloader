@@ -1,4 +1,0 @@
-pytube
-colorama
-tqdm
-moviepy
