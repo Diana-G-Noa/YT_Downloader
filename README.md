@@ -6,19 +6,26 @@
     apt update && apt upgrade -y
 
 ## instalamos git
-    apt install git
-    
+    apt install git  
 ## instalamos python3
     apt install python3
-
+## instalamos libexpat
+    pkg install libexpat
+## instalamos openssl
+    pkg install openssl
+## instalamos pytube
+    pip install pytube
+## instalamos colorama
+    pip install colorama
+## instalamos tqdm
+    pip install tqdm
+## instalamos moviepy
+    pip install moviepy
 ## repositorio
     git clone https://github.com/Diana-G-Noa/YT_Downloader.git
 
 ## Navega al directorio:
     cd YT_Downloader
-    
-## Instalar packetes necesarios:
-    pip install -r requirements.txt
 
 ## Ejecutar el script:
     python3 yt_Downloader.py
