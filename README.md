@@ -6,9 +6,9 @@
     apt update && apt upgrade -y
 
 ## instalamos git
-    apt install git  
+    pkg install git  
 ## instalamos python3
-    apt install python3
+    pkg install python3
 ## instalamos libexpat
     pkg install libexpat
 ## instalamos openssl
@@ -28,9 +28,6 @@
     cd YT_Downloader
 
 ## Ejecutar el script:
-    python3 yt_Downloader.py
-
-## Ejecutar el script Win:
     python yt_Downloader.py
 ---
 
