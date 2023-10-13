@@ -22,6 +22,9 @@
 
 ## Ejecutar el script:
     python3 yt_Downloader.py
+
+## Ejecutar el script Win:
+    python yt_Downloader.py
 ---
 
 Espero te sirva
