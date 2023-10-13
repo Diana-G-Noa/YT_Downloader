@@ -7,24 +7,24 @@
 
 ## instalamos git
     apt install git
+    
+## instalamos python3
+    apt install python3
 
 ## clone este repositorio
-    git clone https://github.com/H-Savvy/basic-tools.git
+    git clone https://github.com/Diana-G-Noa/YT_Downloader.git
 
 ## Navega al directorio "YT_Downloader":
     cd YT_Downloader
     
 ## Instalar packetes necesarios:
     pip install -r requirements.txt
-    
-## Otorgar permisos de ejecución al script:
-    chmod +x YT_Downloader
 
 ## Ejecuta el script "basic-tools.sh" con privilegios de superusuario:
-    sudo ./YT_Downloader.py
+    python3 yt_Downloader.py
 ---
 
-En termux simplemente no uses sudo
+Espero te sirva
 
 ---
 
