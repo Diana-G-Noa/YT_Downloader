@@ -1,15 +1,21 @@
 import os
 from pytube import YouTube
-from colorama import Fore, Style
+from colorama import Fore, Style, init
 from tqdm import tqdm
 from datetime import datetime
 
+init()
+
 def print_large_yt_downloader():
-    print("\033[1;32;40m" + "┌───────────────────────────────────────────────┐" + "\033[0;37;40m")
-    print("\t\033[1;33;40m" + "Y" + "\033[1;34;40m" + "T_" + "\033[1;32;40m" + "Downloader" + "\t\tby_white")
+    if os.name == 'nt':
+        print("YT Downloader")
+    else:
+        print(Fore.GREEN + "┌───────────────────────────────────────────────┐" + Style.RESET_ALL)
+        print("\t" + Fore.YELLOW + "Y" + Fore.BLUE + "T_" + Fore.GREEN + "Downloader" + "\t\tby_white" + Style.RESET_ALL)
 
 def print_colored(message, color):
     print(color + message + Style.RESET_ALL)
+
 def download_video(video_url):
     try:
         yt = YouTube(video_url)
