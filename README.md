@@ -26,7 +26,10 @@
 
 ## Navega al directorio:
     cd YT_Downloader
-
+    
+## Establecer permisos:
+    chmod +x yt_Downloader.py
+    
 ## Ejecutar el script:
     python yt_Downloader.py
 ---
