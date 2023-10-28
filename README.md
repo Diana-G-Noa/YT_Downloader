@@ -22,7 +22,7 @@
 ## instalamos moviepy
     pip install moviepy
 ## repositorio
-    git clone https://github.com/Diana-G-Noa/YT_Downloader.git
+    git clone https://github.com/whit3moonlight/YT_Downloader.git
 
 ## Navega al directorio:
     cd YT_Downloader
@@ -32,9 +32,5 @@
     
 ## Ejecutar el script:
     python yt_Downloader.py
----
 
-
-
----
 
